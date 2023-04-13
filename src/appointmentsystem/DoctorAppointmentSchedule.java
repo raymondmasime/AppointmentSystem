@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 public class DoctorAppointmentSchedule extends javax.swing.JFrame {
 
     /**
-     * Creates new form addDoctor
+     * Creates new form DoctorAppointmentSchedule
      */
     public DoctorAppointmentSchedule() {
         initComponents();

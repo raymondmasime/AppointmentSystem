@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 public class viewDocSchedule extends javax.swing.JFrame {
 
     /**
-     * Creates new form viewdetailDoc
+     * Creates new form viewDocSchedule
      */
     public viewDocSchedule() {
         initComponents();

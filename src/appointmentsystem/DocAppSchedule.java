@@ -12,7 +12,7 @@ package appointmentsystem;
 public class DocAppSchedule extends javax.swing.JFrame {
 
     /**
-     * Creates new form DOCTORS
+     * Creates new form DocAppSchedule
      */
     public DocAppSchedule() {
         initComponents();

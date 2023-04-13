@@ -13,11 +13,11 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author dell
+ * @author USER
  */
 public class editPatientAppointment extends javax.swing.JFrame {
 
-    /** Creates new form editPatient */
+    /** Creates new form editPatientAppointment */
     public editPatientAppointment() {
         initComponents();
     }

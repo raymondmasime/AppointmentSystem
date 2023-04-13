@@ -16,17 +16,15 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author dell
+ * @author USER
  */
-public class Admin_Confirmappointment extends javax.swing.JFrame  implements Runnable{
+public class AdminConfirmappointment extends javax.swing.JFrame  implements Runnable{
     
     int hour,seconds,minutes;
     
     
-    /**
-     * Creates new form admitPatient
-     */
-    public Admin_Confirmappointment() {
+    
+    public AdminConfirmappointment() {
         initComponents();
         showDate();
         Thread t=new Thread(this);
@@ -259,21 +257,23 @@ public class Admin_Confirmappointment extends javax.swing.JFrame  implements Run
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Admin_Confirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminConfirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Admin_Confirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminConfirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Admin_Confirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminConfirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Admin_Confirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminConfirmappointment.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Admin_Confirmappointment().setVisible(true);
+                new AdminConfirmappointment().setVisible(true);
             }
         });
     }

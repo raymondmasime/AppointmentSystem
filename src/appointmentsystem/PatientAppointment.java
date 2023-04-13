@@ -12,7 +12,7 @@ package appointmentsystem;
 public class PatientAppointment extends javax.swing.JFrame {
 
     /**
-     * Creates new form PATIENT
+     * Creates new form PatientAppointment
      */
     public PatientAppointment() {
         initComponents();
@@ -130,14 +130,14 @@ public class PatientAppointment extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Admin_Confirmappointment obj =new Admin_Confirmappointment();
+        AdminConfirmappointment obj =new AdminConfirmappointment();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-        Admin_CancelAppointment obj =new Admin_CancelAppointment();
+        AdminCancelAppointment obj =new AdminCancelAppointment();
         obj.setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed

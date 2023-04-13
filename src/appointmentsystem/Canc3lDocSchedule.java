@@ -15,13 +15,11 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author dell
+ * @author USER
  */
 public class Canc3lDocSchedule extends javax.swing.JFrame {
 
-    /**
-     * Creates new form fireDoctor
-     */
+    
     public Canc3lDocSchedule() {
         initComponents();
     }
@@ -116,13 +114,13 @@ public class Canc3lDocSchedule extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jButton2)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 518, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 547, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton4))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 206, Short.MAX_VALUE)
+                        .addGap(0, 235, Short.MAX_VALUE)
                         .addComponent(jButton1)
                         .addGap(221, 221, 221))))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()

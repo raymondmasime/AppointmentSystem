@@ -12,12 +12,12 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author dell
+ * @author USER
  */
 public class editDoctorSchedule extends javax.swing.JFrame {
 
     /**
-     * Creates new form editDoctor
+     * Creates new form editDoctorSchedule
      */
     public editDoctorSchedule() {
         initComponents();

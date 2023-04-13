@@ -11,9 +11,7 @@ package appointmentsystem;
  */
 public class Admin_DashBoard extends javax.swing.JFrame {
 
-    /**
-     * Creates new form User_DashBoard
-     */
+    
     public Admin_DashBoard() {
         initComponents();
     }
@@ -127,7 +125,7 @@ public class Admin_DashBoard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void viewprofileActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewprofileActionPerformed
-        Admin_CancelAppointment uca = new Admin_CancelAppointment();
+        AdminCancelAppointment uca = new AdminCancelAppointment();
         uca.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_viewprofileActionPerformed
@@ -139,7 +137,7 @@ public class Admin_DashBoard extends javax.swing.JFrame {
     }//GEN-LAST:event_logoutActionPerformed
 
     private void viewprofile1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewprofile1ActionPerformed
-        Admin_Confirmappointment ts = new Admin_Confirmappointment();
+        AdminConfirmappointment ts = new AdminConfirmappointment();
         ts.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_viewprofile1ActionPerformed
